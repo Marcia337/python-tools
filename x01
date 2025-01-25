@@ -1,0 +1,15 @@
+# Calcular a raiz quadrada de um número, precisamos de definir o tipo da variável senão dá erro, neste caso é um INT
+"""
+num = input("Digite um número inteiro:")
+num =int(num)
+sqr_root = num*num
+print(sqr_root)
+"""
+
+import math
+
+num = int(input("Digite um número inteiro!\n--->\t"))
+sqr_root = math.sqrt(num)
+print("A raíz quadrada do número", num, "é igual a", round(sqr_root, 2))
+
+print(f"A raíz quadrada do número {num} é igual a {round(sqr_root, 2)}")
