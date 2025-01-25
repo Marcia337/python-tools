@@ -1,0 +1,7 @@
+import math
+
+cateto1 = int(input("Introduza o valor de um cateto: "))
+cateto2 = int(input("Introduza o valor do outro cateto: "))
+
+hipotnusa = math.sqrt((cateto1**cateto1)+(cateto2**cateto2))
+print("A hipotnusa do triângulo é: ", round(hipotnusa, 2))

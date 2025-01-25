@@ -1,0 +1,4 @@
+raio = int(input("Introduza o valor do raio: "))
+pi = 3.14
+volume = (4/3) * pi * (raio ** 3)
+print(f"O volume da esfera é {round(volume, 2)}")

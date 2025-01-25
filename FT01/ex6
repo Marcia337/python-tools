@@ -1,0 +1,5 @@
+horas = int(input("Introduza o número de horas : "))
+minutos = int(input("Introduza o número de minutos: "))
+segundos = int(input("Introduza o número de segundos: "))
+total_segundos = horas * 3600 + minutos * 60 + segundos
+print(f"O total de segundos é {total_segundos} segundos")  # Aqui está

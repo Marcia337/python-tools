@@ -1,7 +1,1 @@
-import math 
-
-num = int(input("Digite um número inteiro!\n--->\t"))
-sqr_root = math.sqrt(num) 
-print("A raíz quadrada do número",num, "é igual a", round(sqr_root,2))
-
-print(f"A raíz quadrada do número {num} é igual a {round(sqr_root,2)}")
+print("Hello, World!")
